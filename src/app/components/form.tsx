@@ -1,14 +1,15 @@
 "use client";
-
-import { MessageSquare, Phone, Send, UserRound } from "lucide-react";
+import { Phone, Send, UserRound } from "lucide-react";
 import React, { useState } from "react";
 
 export default function FormularioContato() {
+  // Estado para armazenar os dados do formulário
   const [formData, setFormData] = useState({
     nome: "",
     numero: "",
     mensagem: "",
   });
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
