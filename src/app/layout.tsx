@@ -16,7 +16,7 @@ const robotoMono = Roboto({
 
 export const metadata: Metadata = {
   title: "Site Transmissiva",
-  description: "Pagina de exemplo para o site transmissiva",
+  description: "Pagina online da transmissiva",
 };
 
 export default function RootLayout({
