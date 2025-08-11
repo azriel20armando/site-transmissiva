@@ -4,7 +4,7 @@ import { Instagram, Facebook, Twitter, X } from 'lucide-react';
 export function SocialModal() {
   return (
     <Dialog.Root>
-      <Dialog.Trigger className="cursor-pointer rounded-lg bg-[#212121] px-4 py-2 text-white transition hover:bg-cyan-700">
+      <Dialog.Trigger className="cursor-pointer rounded-lg bg-[#212121] px-4 py-2 text-white transition hover:bg-[#4E4E4E]">
         Redes Sociais
       </Dialog.Trigger>
 

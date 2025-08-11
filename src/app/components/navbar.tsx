@@ -5,7 +5,7 @@ import { SocialModal } from './social';
 export default function NavBar() {
   return (
     <div className="flex items-center justify-between bg-[#2F2F2F] px-6 py-5 font-medium text-[#8F8F8F]">
-      Ecommerce
+      Transmissiva.ao
       <nav style={{ padding: '0.5rem'}}>
         <Link href="/" style={{ marginRight: '2rem' }}>Início</Link>
         <Link href="/sobre" style={{ marginRight: '2rem' }}>Sobre</Link>
