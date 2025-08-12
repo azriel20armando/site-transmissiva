@@ -1,11 +1,11 @@
 import * as Dialog from '@radix-ui/react-dialog';
-import { Instagram, Facebook, Twitter, X } from 'lucide-react';
+import { Instagram, Facebook, Twitter, X, Warehouse } from 'lucide-react';
 
 export function SocialModal() {
   return (
     <Dialog.Root>
-      <Dialog.Trigger className="cursor-pointer rounded-lg bg-[#212121] px-4 py-2 text-white transition hover:bg-[#4E4E4E]">
-        Redes Sociais
+      <Dialog.Trigger className="cursor-pointer rounded-full bg-[#212121] px-5 py-3 w-40 text-white transition hover:bg-[#4E4E4E]">
+        Redes sociais
       </Dialog.Trigger>
 
       <Dialog.Portal>
